@@ -20,6 +20,7 @@ $(document).ready(function() {
     $('#distance').val("");
     $('#year').val("");
 
+    $("#solution").text("");
     var result = currentBike.find(city, color, make, displayBike);
   });
 });
