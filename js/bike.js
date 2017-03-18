@@ -21,4 +21,5 @@ Bike.prototype.find = function(city, color, make, displayBike) {
     });
   });
 };
+
 exports.bikeModule = Bike;
