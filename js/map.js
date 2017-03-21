@@ -10,7 +10,7 @@ Map.prototype.initMap = function(){
 
   var marker = new google.maps.Marker({
     position: uluru,
-    map: map
+    map: this.map
   });
 };
 
