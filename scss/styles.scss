@@ -1,14 +1,10 @@
 #map {
-  position: absolute;
+  position: fixed;
   top: 0;
   float: right;
   width: 100%;
   height: 100vh;
-}
-
-html {
-  height: 100vh;
-  overflow: hidden;
+  float: right;
 }
 
 h2 {
